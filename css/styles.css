@@ -35,3 +35,6 @@ body {
 .span {
   color: #2e2f42;
 }
+.link {
+  text-decoration: none;
+}
