@@ -5,17 +5,36 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+/* header */
+
 .header {
 }
 .header-navigation {
 }
 .header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  /* identical to box height, or 117% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .header-mail {
 }
