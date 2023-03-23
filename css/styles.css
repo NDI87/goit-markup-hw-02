@@ -42,6 +42,7 @@ body {
 .span-word {
   color: #2e2f42;
 }
+
 .link {
   text-decoration: none;
 }
@@ -60,4 +61,11 @@ body {
 }
 .button {
   cursor: pointer;
+}
+
+/* hero */
+
+/* footer */
+.span {
+  color: #f4f4fd;
 }
