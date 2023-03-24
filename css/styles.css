@@ -3,6 +3,8 @@
   --second-color: #2e2f42;
   --text-color: #434455;
   --logo-color: #404bbf;
+  --header-logo: #4d5ae5;
+  --span-color: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -31,7 +33,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--header-logo);
 }
 .header-list {
   font-family: "Roboto";
@@ -79,7 +81,7 @@ body {
 
 /* footer */
 .span {
-  color: #f4f4fd;
+  color: var(--span-color);
 }
 
 .footer {
