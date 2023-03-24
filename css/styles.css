@@ -28,13 +28,32 @@ body {
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--header-logo);
+  color: var(--second-color);
 }
+
+.header-logostudio {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  width: 71px;
+  height: 21px;
+}
+
 .header-list {
   font-family: "Roboto";
   font-style: normal;
@@ -45,13 +64,17 @@ body {
   color: var(--second-color);
 }
 .header-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-color);
+  background-color: var(--main-background-color);
 }
 .header-link {
+  color: var(--hover-color);
+}
+.link-header:hover {
+  color: var(--hover-color);
+}
+
+.link-header:focus {
+  color: var(--hover-color);
 }
 .contact-link {
   font-weight: 400;
@@ -67,9 +90,6 @@ body {
 
 .contact-link:focus {
   color: var(--hover-color);
-}
-.span-word {
-  color: var(--second-color);
 }
 
 .address {
