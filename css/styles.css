@@ -104,12 +104,12 @@ body {
 
 ________________________/* Main */___________________________
 
-.button:hover{
-   background-color: var(--hover-color);
+.button:hover {
+  background-color: var(--hover-color);
 }
-}
+
 .button:focus {
- background-color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 .button {
   cursor: pointer;
@@ -122,4 +122,5 @@ ________________________/* Main */___________________________
 
 .footer {
   background-color: var(--second-color);
+  color: #4d5ae5;
 }
