@@ -22,7 +22,6 @@ body {
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -31,6 +30,11 @@ body {
   color: #4d5ae5;
 }
 .header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .header-item {
   font-weight: 500;
@@ -51,8 +55,6 @@ body {
 
 .address {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
