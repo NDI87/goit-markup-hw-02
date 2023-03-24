@@ -110,7 +110,7 @@ body {
 _________________/**_______________HERO_______________**/
 
 .hero {
-    background-color:var(--logo-color);
+    background-color:var(--hover-color);
 }
 
 .hero-title {
