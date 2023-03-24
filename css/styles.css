@@ -1,9 +1,12 @@
 :root {
+  --main-background-color: #ffffff;
+  --second-color: #2e2f42;
+  --text-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
-
-  background-color: #ffffff;
+color: var(--text-color);
+  background-color: var(--main-background-color);
 }
 
 .link {
@@ -16,7 +19,7 @@ body {
 /* header */
 
 .header {
-  background: #ffffff;
+  color: var(--main-background-color);
 }
 .header-navigation {
 }
@@ -36,14 +39,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--second-color);
 }
 .header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--second-color);
 }
 .header-link {
 }
@@ -56,12 +59,14 @@ body {
 }
 
 .address {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:var(--text-color)
+
+  )
 }
 .button:hover,
 .button:focus {
