@@ -2,6 +2,7 @@
   --main-background-color: #ffffff;
   --second-color: #2e2f42;
   --text-color: #434455;
+  --logo-color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -55,7 +56,7 @@ body {
 .header-phone {
 }
 .span-word {
-  color: #2e2f42;
+  color: var(--second-color);
 }
 
 .address {
@@ -68,7 +69,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #404bbf;
+  color: var(--logo-color);
 }
 .button {
   cursor: pointer;
