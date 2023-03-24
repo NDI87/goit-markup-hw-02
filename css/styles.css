@@ -5,10 +5,16 @@ body {
 
   background-color: #ffffff;
 }
-/* header */
+
+.link {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
+/* header */
+
 .header {
   background: #ffffff;
 }
@@ -43,9 +49,6 @@ body {
   color: #2e2f42;
 }
 
-.link {
-  text-decoration: none;
-}
 .address {
   font-family: "Roboto";
   font-style: normal;
