@@ -1,10 +1,10 @@
 :root {
   --main-background-color: #ffffff;
-  --second-color: #2e2f42;
+  --second-color: #4d5ae5;
+  --logo-color: #2e2f42;
   --text-color: #434455;
-  --logo-color: #404bbf;
-  --header-logo: #4d5ae5;
-  --span-color: #f4f4fd;
+  --hover-color: #404bbf;
+  --light-color: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -26,6 +26,7 @@ body {
 }
 .header-navigation {
 }
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -100,15 +101,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.button:hover,
+
+________________________/* Main */___________________________
+
+.button:hover{
+   background-color: var(--hover-color);
+}
+}
 .button:focus {
-  color: var(--logo-color);
+ background-color: var(--hover-color);
 }
 .button {
   cursor: pointer;
 }
-
-/* hero */
 
 /* footer */
 .span {
