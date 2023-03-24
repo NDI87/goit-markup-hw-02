@@ -117,10 +117,10 @@ ________________________/* Main */___________________________
 
 /* footer */
 .span {
-  color: var(--span-color);
+  color: var(--light-color);
 }
 
 .footer {
-  background-color: var(--second-color);
+  background-color: var(--logo-color);
   color: #4d5ae5;
 }
