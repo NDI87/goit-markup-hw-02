@@ -37,7 +37,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-color);
+  color: var(--logo-color);
 }
 
 .header-logostudio {
