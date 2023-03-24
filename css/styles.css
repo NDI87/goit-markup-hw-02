@@ -75,11 +75,11 @@ body {
   color: var(--logo-color);
 }
 
-.link-header:hover {
+.header-link:hover {
   color: var(--hover-color);
 }
 
-.link-header:focus {
+.header-link:focus {
   color: var(--hover-color);
 }
 .contact-link {
