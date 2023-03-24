@@ -1,9 +1,15 @@
 :root {
+  --main-background-color: #FFFFFF;
+  --second-color: #4D5AE5;
+  --logo-color: #2E2F42;
+  --text-color: #434455;
+  --hover-color: #404BBF;
+  --light-color: #F4F4FD;
 }
 body {
-  font-family: "Roboto", sans-serif;
-
-  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-background-color);
 }
 /* header */
 .list {
