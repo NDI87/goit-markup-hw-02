@@ -1,105 +1,70 @@
 :root {
-  --main-background-color: #FFFFFF;
-  --second-color: #4D5AE5;
-  --logo-color: #2E2F42;
-  --text-color: #434455;
-  --hover-color: #404BBF;
-  --light-color: #F4F4FD;
 }
-
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--text-color);
-  background-color: var(--main-background-color);
-}
-  
-.list {
-  list-style: none;
+  font-family: "Roboto", sans-serif;
+
+  background-color: #ffffff;
 }
 
 .link {
   text-decoration: none;
 }
 
-
-/**______________________HEADER________________**/
+.list {
+  list-style: none;
+}
+/* header */
 
 .header {
-  background-color: var(--main-background-color);
+  background: #ffffff;
 }
-
-.nav-header {
+.header-navigation {
 }
-
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-color);
-
+  color: #4d5ae5;
 }
-.header-logostudio {
-  font-family: 'Raleway' sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--logo-color);
-  width: 71px;
-  height: 21px;
+.header-list {
 }
-
-
-.item-header {
-  background-color: var(--main-background-color);
-}
-
-.link-header {
+.header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-color);
+  color: #2e2f42;
+}
+.header-link {
+}
+.header-mail {
+}
+.header-phone {
+}
+.span-word {
+  color: #2e2f42;
 }
 
-.link-header:hover {
-  color:var(--hover-color);
-}
-
-.link-header:focus {
-  color: var(--hover-color);
-}
-.contact-header {
+.address {
+  font-family: "Roboto";
   font-style: normal;
-} 
-
-
-.contact-link  {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #434455;
 }
-
-.contact-link:hover {
-  color: var(--hover-color);
+.button:hover,
+.button:focus {
+  color: #404bbf;
 }
-
-.contact-link:focus {
-  color: var(--hover-color);
+.button {
+  cursor: pointer;
 }
-
 
 /* hero */
 
