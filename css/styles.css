@@ -107,7 +107,8 @@ body {
   color: var(--text-color);
 }
 
-_________________/**_______________HERO_______________**/
+/**_______________HERO_______________**/
+
 .hero {
   background-color: var(--logo-color);
 }
@@ -120,6 +121,7 @@ _________________/**_______________HERO_______________**/
   letter-spacing: 0.02em;
   color: var(--main-background-color);
 }
+
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
