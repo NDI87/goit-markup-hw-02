@@ -272,6 +272,7 @@ _________________/**_______________HERO_______________**/
 /**_______________GALLERY_______________**/
 
 .gallery {
+  background-color: var(--logo-color);
 }
 
 .hidden-text {
