@@ -110,7 +110,7 @@ body {
 _________________/**_______________HERO_______________**/
 
 .hero {
-  background-color: var(--hover-color);
+  background-color: var(--logo-color);
 }
 
 .hero-title {
@@ -272,7 +272,6 @@ _________________/**_______________HERO_______________**/
 /**_______________GALLERY_______________**/
 
 .gallery {
-  background-color: var(--logo-color);
 }
 
 .hidden-text {
