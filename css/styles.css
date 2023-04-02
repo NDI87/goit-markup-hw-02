@@ -147,6 +147,8 @@ button {
 }
 
 .hero-btn {
+  width: 105px;
+  height: 24px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +159,7 @@ button {
   color: var(--main-background-color);
   background: var(--second-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .hero-btn:hover {
