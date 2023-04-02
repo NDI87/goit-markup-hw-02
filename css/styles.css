@@ -160,9 +160,9 @@ ul {
   background: var(--second-color);
   cursor: pointer;
   border-radius: 4px;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 48px;
-  margin-bottom: 188px;
+  padding-bottom: 188px;
 }
 button {
   cursor: pointer;
