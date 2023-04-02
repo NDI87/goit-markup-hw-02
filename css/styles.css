@@ -141,6 +141,11 @@ ul {
 
 .hero {
   background-color: var(--logo-color);
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
 }
 
 .hero-title {
