@@ -60,6 +60,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
+  display: flex;
 }
 
 .header-logostudio {
