@@ -74,6 +74,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  display: flex;
 }
 .header-item {
   background-color: var(--main-background-color);
