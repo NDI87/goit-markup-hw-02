@@ -66,6 +66,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
+  padding-right: 76px;
 }
 
 .header-logostudio {
