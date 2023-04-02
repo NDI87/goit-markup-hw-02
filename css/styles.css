@@ -48,6 +48,7 @@ button {
 }
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .container {
