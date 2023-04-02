@@ -83,6 +83,7 @@ button {
 }
 .header-item {
   background-color: var(--main-background-color);
+  margin-right: 40px;
 }
 .header-link {
   font-weight: 500;
