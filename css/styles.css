@@ -49,6 +49,7 @@ button {
 .header-navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .container-header {
