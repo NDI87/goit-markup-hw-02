@@ -23,6 +23,10 @@ h6 {
 img {
   display: block;
 }
+
+.container {
+  width: 1158px;
+}
 ul {
   margin: 0;
   padding-left: 0;
@@ -51,11 +55,10 @@ button {
 
 .container-header {
   display: flex;
-}
-.container {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
