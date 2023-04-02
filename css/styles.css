@@ -170,8 +170,6 @@ ul {
   margin-bottom: 188px;
 }
 button {
-  cursor: pointer;
-  margin: 0 auto;
   width: 105px;
   height: 24px;
   display: flex;
@@ -179,7 +177,6 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
-  align-content: center;
 }
 .hero-btn:hover {
   background-color: var(--hover-color);
