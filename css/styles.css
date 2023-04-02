@@ -53,6 +53,8 @@ button {
   display: flex;
 }
 .container {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -65,6 +67,7 @@ button {
   text-transform: uppercase;
   color: var(--second-color);
   margin-right: 76px;
+  margin-left: 156px;
 }
 
 .header-logostudio {
