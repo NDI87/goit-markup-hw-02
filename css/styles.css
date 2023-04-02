@@ -150,7 +150,7 @@ button {
 }
 
 .hero-btn {
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   font-family: inherit;
   font-weight: 500;
