@@ -163,6 +163,7 @@ button {
   background: var(--second-color);
   cursor: pointer;
   border-radius: 4px;
+  margin: auto;
 }
 
 .hero-btn:hover {
