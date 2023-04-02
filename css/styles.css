@@ -25,6 +25,11 @@ img {
 }
 
 .container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-portfolio {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -141,7 +146,6 @@ ul {
 
 .hero {
   background-color: var(--logo-color);
-  position: absolute;
   width: 1440px;
   height: 600px;
   left: 0px;
