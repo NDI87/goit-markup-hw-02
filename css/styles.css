@@ -160,23 +160,19 @@ ul {
   display: flex;
   align-items: center;
   align-content: center;
+  justify-content: center;
   letter-spacing: 0.04em;
   color: var(--main-background-color);
   background: var(--second-color);
   cursor: pointer;
   border-radius: 4px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 48px;
   margin-bottom: 188px;
 }
 button {
   width: 105px;
   height: 24px;
-  display: flex;
-  align-items: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .hero-btn:hover {
   background-color: var(--hover-color);
