@@ -27,6 +27,10 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+
+*box-sizing {
+  border-box;
+}
 button {
   cursor: pointer;
 }
