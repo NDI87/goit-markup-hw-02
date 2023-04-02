@@ -32,9 +32,6 @@ ul {
   padding-left: 0;
 }
 
-button {
-  cursor: pointer;
-}
 .link {
   text-decoration: none;
 }
@@ -163,9 +160,12 @@ button {
   background: var(--second-color);
   cursor: pointer;
   border-radius: 4px;
-  margin: auto;
+  margin: 0 auto;
 }
-
+button {
+  cursor: pointer;
+  margin: 0 auto;
+}
 .hero-btn:hover {
   background-color: var(--hover-color);
 }
