@@ -246,6 +246,7 @@ button {
   margin-top: 72px;
   margin-left: 156px;
   margin-right: 156px;
+  padding-bottom: 120px;
   border: 1px solid #e7e9fc;
   align-items: center;
   justify-content: center;
@@ -266,6 +267,7 @@ button {
   gap: 24px;
   align-items: center;
   justify-content: center;
+  padding-bottom: 120px;
 }
 .team-title {
   font-weight: 700;
@@ -288,6 +290,11 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -296,6 +303,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 32px;
 }
 
 /**_______________FOOTER_______________**/
@@ -310,8 +321,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
+  margin-left: 156px;
+  margin-right: 1020px;
+  padding-bottom: 100px;
 }
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -323,6 +336,10 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
+  padding-top: 101.5px;
+  margin-right: 1240px;
+  margin-left: 156px;
+  margin-bottom: 17.5px;
 }
 
 .footer-logostudio {
