@@ -159,6 +159,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-background-color);
+  padding-top: 188px;
 }
 
 .hero-btn {
@@ -199,6 +200,9 @@ button {
 }
 
 .about-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 152px;
 }
 
 .about-item {
@@ -233,9 +237,18 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: var(--logo-color);
+  margin-top: 120px;
 }
 
 .products-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+  margin-left: 156px;
+  margin-right: 156px;
+  border: 1px solid #e7e9fc;
+  align-items: center;
+  justify-content: center;
 }
 
 .products-item {
@@ -245,8 +258,15 @@ button {
 
 .team {
   background-color: var(--light-color);
+  box-sizing: border-box;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -255,6 +275,7 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: var(--logo-color);
+  padding: 120px;
 }
 
 .team-item {
