@@ -163,6 +163,10 @@ ul {
   letter-spacing: 0.02em;
   color: var(--main-background-color);
   padding-top: 188px;
+  width: 496px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -181,10 +185,9 @@ ul {
   background: var(--second-color);
   cursor: pointer;
   border-radius: 4px;
-  margin: 0 auto;
-  margin-top: 48px;
-  margin-bottom: 188px;
+  margin: 188px auto;
 }
+
 button {
   width: 105px;
   height: 24px;
@@ -410,6 +413,9 @@ button {
 }
 
 .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 
 .gallery-item {
@@ -434,16 +440,9 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 12px 24px;
   width: 116px;
   height: 48px;
-
   background: #f4f4fd;
-
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 2;
 }
