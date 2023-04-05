@@ -11,6 +11,7 @@ body {
   color: var(--text-color);
   background-color: var(--main-background-color);
 }
+
 p,
 h1,
 h2,
@@ -28,15 +29,14 @@ img {
   box-sizing: border-box;
 }
 .container {
-  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 1158px;
   outline: 2px solid red;
 }
-.container-portfolio {
-  width: 1158px;
-  margin: 0 auto;
-}
+
 .section {
   padding-top: 120px;
   padding-left: 120px;
@@ -61,11 +61,12 @@ ul {
 .header-navigation {
   display: flex;
   align-items: center;
-  margin-right: auto;
 }
 
 .container-header {
   display: flex;
+  align-items: center;
+
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -149,7 +150,7 @@ ul {
 
 .hero {
   background-color: var(--logo-color);
-  width: 1440px;
+
   height: 600px;
   left: 0px;
   top: 72px;
@@ -203,20 +204,21 @@ button {
 /**__________________ABOUT_______________**/
 
 .about {
+  margin-top: 120px;
+  max-width: 1128px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
 }
 
 .about-list {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  padding-right: 156px;
-  padding-left: 156px;
-  min-width: 1128px;
-  min-height: 104px;
 }
 
 .about-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .about-subtitle {
@@ -225,6 +227,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+  margin-bottom: 8px;
 }
 
 .about-text {
@@ -335,6 +338,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
+  padding-top: 16px;
+  width: 264px;
   margin-left: 156px;
   margin-right: 1020px;
   padding-bottom: 100px;
@@ -350,7 +355,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
-  padding-top: 101.5px;
+  padding-top: 100px;
   margin-right: 1240px;
   margin-left: 156px;
   margin-bottom: 17.5px;
@@ -446,4 +451,15 @@ button {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+}
+
+.category-card {
+  flex-grow: 1;
+  padding-top: 32px;
+  padding-right: auto;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border-right: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
 }
