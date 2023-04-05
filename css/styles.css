@@ -413,13 +413,13 @@ button {
 }
 
 .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 
 .gallery-item {
-  display: block;
-  flex-wrap: wrap;
   width: calc((100% - 48px) / 3);
-  gap: 24px;
 }
 
 .gallery-title {
