@@ -144,7 +144,6 @@ ul {
 
 .hero {
   background-color: var(--logo-color);
-
   text-align: center;
   padding: 188px 0;
 }
@@ -168,7 +167,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   justify-content: center;
   letter-spacing: 0.04em;
   color: var(--main-background-color);
@@ -193,6 +191,7 @@ button {
 /**__________________ABOUT_______________**/
 
 .about {
+  padding-top: 120px;
 }
 
 .about-list {
