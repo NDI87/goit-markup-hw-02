@@ -29,12 +29,11 @@ img {
   box-sizing: border-box;
 }
 .container {
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1158px;
   outline: 2px solid red;
+  margin: 0 auto;
 }
 
 .section {
@@ -56,7 +55,6 @@ ul {
 /* Header */
 
 .header {
-  color: var(--main-background-color);
 }
 .header-navigation {
   display: flex;
@@ -66,9 +64,6 @@ ul {
 .container-header {
   display: flex;
   align-items: center;
-
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -82,7 +77,6 @@ ul {
   text-transform: uppercase;
   color: var(--second-color);
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .header-logostudio {
@@ -126,7 +120,6 @@ ul {
   color: var(--text-color);
 }
 .phone {
-  margin-right: 156px;
 }
 
 .contact-link:hover {
@@ -144,6 +137,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-left: auto;
 }
 
 /**_______________HERO_______________**/
@@ -151,9 +145,8 @@ ul {
 .hero {
   background-color: var(--logo-color);
 
-  height: 600px;
-  left: 0px;
-  top: 72px;
+  text-align: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -163,9 +156,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-background-color);
-  padding-top: 188px;
   width: 496px;
-  height: 120px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -177,16 +168,14 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  align-content: center;
+
   justify-content: center;
   letter-spacing: 0.04em;
   color: var(--main-background-color);
   background: var(--second-color);
   cursor: pointer;
+
   border-radius: 4px;
-  margin: 188px auto;
 }
 
 button {
@@ -204,11 +193,6 @@ button {
 /**__________________ABOUT_______________**/
 
 .about {
-  margin-top: 120px;
-  max-width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 
 .about-list {
@@ -236,10 +220,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  width: 264px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 
 /**_______________PRODUCTS_______________**/
