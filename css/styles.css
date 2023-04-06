@@ -32,13 +32,25 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+
   margin: 0 auto;
 }
 
 .section {
   padding-top: 120px;
   padding-left: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 ul {
   margin: 0;
@@ -63,7 +75,9 @@ ul {
 
 .container-header {
   display: flex;
-  align-items: center;
+  padding-top: 24px;
+
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -261,8 +275,6 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 120px;
 }
 .team-title {
@@ -277,20 +289,29 @@ button {
 }
 
 .team-item {
-  background-color: var(--main-background-color);
+  height: 100%;
+  flex-grow: 1;
+  text-align: center;
+  flex-basis: calc((100% - 72px) / 4);
+
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: var(--white-background-color);
+}
+.team-card {
+  background: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-subtitle {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--logo-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
 }
 
 .team-text {
@@ -299,10 +320,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 32px;
 }
 
 /**_______________FOOTER_______________**/
@@ -318,10 +337,8 @@ button {
   letter-spacing: 0.02em;
   color: var(--light-color);
   padding-top: 16px;
-  width: 264px;
-  margin-left: 156px;
-  margin-right: 1020px;
   padding-bottom: 100px;
+  width: 264px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -335,9 +352,6 @@ button {
   text-transform: uppercase;
   color: var(--second-color);
   padding-top: 100px;
-  margin-right: 1240px;
-  margin-left: 156px;
-  margin-bottom: 17.5px;
 }
 
 .footer-logostudio {
@@ -365,8 +379,7 @@ button {
 
 .filter-list-gallery {
   display: flex;
-  padding-left: 427px;
-  padding-right: 427px;
+
   margin-top: 96px;
   margin-bottom: 72px;
 
@@ -400,6 +413,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  padding-bottom: 120px;
+  padding-top: 72px;
 }
 
 .gallery-item {
@@ -433,9 +448,8 @@ button {
 }
 
 .category-card {
-  flex-grow: 1;
   padding-top: 32px;
-  padding-right: auto;
+  padding-right: 16px;
   padding-bottom: 32px;
   padding-left: 16px;
   border-right: 1px solid var(--accent-color);
