@@ -71,13 +71,13 @@ ul {
 .header-navigation {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+
+  padding-bottom: 24px;
 }
 
 .container-header {
   display: flex;
-  padding-top: 24px;
-
-  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -152,6 +152,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--text-color);
   margin-left: auto;
+  padding-top: 24px;
 }
 
 /**_______________HERO_______________**/
@@ -181,13 +182,14 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  justify-content: center;
+
   letter-spacing: 0.04em;
   color: var(--main-background-color);
   background: var(--second-color);
   cursor: pointer;
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: transparent;
 }
 
 button {
@@ -238,6 +240,8 @@ button {
 /**_______________PRODUCTS_______________**/
 
 .products {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .products-title {
@@ -255,10 +259,7 @@ button {
   display: flex;
   gap: 24px;
   margin-top: 72px;
-  margin-left: 156px;
-  margin-right: 156px;
-  padding-bottom: 120px;
-  border: 1px solid #e7e9fc;
+
   align-items: center;
   justify-content: center;
 }
@@ -270,12 +271,13 @@ button {
 
 .team {
   background-color: var(--light-color);
+  padding-top: 120px;
+  padding-top: 120px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .team-title {
   font-weight: 700;
@@ -285,12 +287,9 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: var(--logo-color);
-  padding: 120px;
 }
 
 .team-item {
-  height: 100%;
-  flex-grow: 1;
   text-align: center;
   flex-basis: calc((100% - 72px) / 4);
 
@@ -336,9 +335,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
-  padding-top: 16px;
-  padding-bottom: 100px;
   width: 264px;
+  margin-top: 16px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -346,26 +344,13 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
-  padding-top: 100px;
 }
 
 .footer-logostudio {
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--light-color);
 }
 
