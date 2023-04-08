@@ -272,7 +272,7 @@ button {
 .team {
   background-color: var(--light-color);
   padding-top: 120px;
-  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
@@ -287,6 +287,7 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: var(--logo-color);
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -327,6 +328,7 @@ button {
 
 .footer {
   background: var(--logo-color);
+  padding-top: 100px;
 }
 
 .footer-text {
