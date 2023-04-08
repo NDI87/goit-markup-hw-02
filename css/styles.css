@@ -5,6 +5,7 @@
   --text-color: #434455;
   --hover-color: #404bbf;
   --light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -275,10 +276,6 @@ button {
   padding-bottom: 120px;
 }
 
-.team-list {
-  display: flex;
-  gap: 24px;
-}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -289,6 +286,10 @@ button {
   color: var(--logo-color);
   margin-bottom: 72px;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 
 .team-item {
   text-align: center;
@@ -297,12 +298,12 @@ button {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  background-color: var(--white-background-color);
+  background-color: var(--main-background-color);
 }
 .team-card {
   background: #ffffff;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -329,6 +330,7 @@ button {
 .footer {
   background: var(--logo-color);
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-text {
@@ -359,6 +361,8 @@ button {
 /**_______________GALLERY_______________**/
 
 .gallery {
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .hidden-text {
@@ -366,9 +370,6 @@ button {
 
 .filter-list-gallery {
   display: flex;
-
-  margin-top: 96px;
-  margin-bottom: 72px;
 
   justify-content: center;
   gap: 24px;
@@ -400,8 +401,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 
 .gallery-item {
@@ -422,14 +422,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-top: 8px;
 }
 .btn1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 116px;
   height: 48px;
-  background: #f4f4fd;
+  background: var(--light-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
