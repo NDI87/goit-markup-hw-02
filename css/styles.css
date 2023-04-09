@@ -68,16 +68,16 @@ ul {
 /* Header */
 
 .header {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .header-navigation {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-
-  padding-bottom: 24px;
 }
 
 .container-header {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
 
@@ -153,9 +153,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--text-color);
   margin-left: auto;
-  padding-top: 24px;
 }
-
 /**_______________HERO_______________**/
 
 .hero {
@@ -253,7 +251,6 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: var(--logo-color);
-  margin-top: 120px;
 }
 
 .products-list {
@@ -302,8 +299,8 @@ button {
 }
 .team-card {
   background: #ffffff;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -370,7 +367,6 @@ button {
 
 .filter-list-gallery {
   display: flex;
-
   justify-content: center;
   gap: 24px;
 }
@@ -395,6 +391,7 @@ button {
 .filter-btn-text:focus {
   background-color: var(--hover-color);
   color: var(--main-background-color);
+  border-color: transparent;
 }
 
 .gallery-list {
