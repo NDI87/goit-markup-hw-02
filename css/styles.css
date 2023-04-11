@@ -7,6 +7,7 @@
   --light-color: #f4f4fd;
   --accent-color: #e7e9fc;
   --subtle-text-color: #8e8f99;
+  --success-color: #31d0aa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -244,6 +245,19 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 8px;
+  background: var(--light-color);
+  border-radius: 4px;
+}
+.svg-icon {
+}
 
 /**_______________PRODUCTS_______________**/
 
@@ -441,6 +455,23 @@ button {
 
 .footer-logostudio {
   color: var(--light-color);
+}
+
+.footer-social {
+}
+.social-text {
+}
+.text {
+}
+.social-list {
+}
+.list {
+}
+.social-item {
+}
+.social-link {
+}
+.social-icon {
 }
 
 /**_______________GALLERY_______________**/
