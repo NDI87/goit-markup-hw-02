@@ -6,6 +6,7 @@
   --hover-color: #404bbf;
   --light-color: #f4f4fd;
   --accent-color: #e7e9fc;
+  --subtle-text-color: #8e8f99;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -366,22 +367,46 @@ button {
   padding-bottom: 120px;
 }
 .Customers-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   text-align: center;
+  text-transform: capitalize;
   color: var(--logo-color);
 }
 .customers-list {
-  width: 104px;
-  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
+.costumer-item {
+  flex-basis: calc((100% - 72px) / 6);
+}
 .customers-link {
-  width: 100%;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid var(--subtle-text-color);
+  border-radius: 4px;
+}
+
+.custumers-icon {
+  display: flex;
+  fill: var(--subtle-text-color);
+}
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--hover-color);
+}
+.customers-link:hover .custumers-icon,
+.customers-link:focus .custumers-icon {
+  fill: var(--hover-color);
 }
 /**_______________FOOTER_______________**/
 
